@@ -10,7 +10,14 @@ function TodoForm() {
               <Input
                 id="email"
                 type="email"
-                placeholder="m@example.com"
+                placeholder="Enter Your Email"
+                required
+              />
+               <Label htmlFor="password">Password</Label>
+              <Input
+                id="email"
+                type="Passsword"
+                placeholder="Enter Your Password"
                 required
               />
             </div>
